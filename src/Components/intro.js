@@ -1,10 +1,10 @@
 
-function Intro (){
+function Intro (props){
     return(
-   <div className="div-flex-c">
-    <div  className="row" >
-<div className="intro-container">
-    <figure className="intro-pic-me--mask"><img src='./thebestone.jpg' alt="Picture of Me"></img></figure>
+   <div className="div-flex">
+    <div  className="big-row" >
+<div className="intro-container med-row">
+    <figure className="intro-pic-mask"><img src={props.me}alt="Picture of Me" className="intro-pic-me"/></figure>
      <h1>Hello there! I'm <span>💕</span><span>Monet Paul</span><span>💕</span></h1>
      <p>I’m excited to tell you a bit about myself. I’ve always been interested in technology and how it can improve people’s lives and why I pursued a career in <strong>frontend software engineering</strong>.</p>  
      <div>

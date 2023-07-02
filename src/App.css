@@ -26,17 +26,27 @@ a{
     position: relative;
 }
 /*reusable css*/
-.div-flex-c{
-    display: flex;
-    flex-direction: column;  
+.div-flex{
+    flex: 1;
+    min-height: 100vh;
+    display: flex;   
+    
 }
-.row{
+
+.big-row{
   width:100%;
   max-width:1200px;
-  margin:0 auto;    
+  margin:0 auto;
+      
+}
+.med-row{
+    width:100%;
+  max-width:800px;
+  margin:0 auto;
 }
 .container{
     padding: 80px 0;
+    
 }
 .link-hover-effect::after{
 content: "";
@@ -99,9 +109,19 @@ display: flex;
 .intro-container{
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+    align-items: center;
+    
+    
+}
+.intro-pic-mask{
+  width: 300px;
+  height: 300px;
+  clip-path: circle();
+  overflow: hidden;
+}
+.intro-pic-me{
+    width: 100%;
+    transform: translate(0%, -5%)
 }
 
 
