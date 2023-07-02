@@ -121,7 +121,8 @@ display: flex;
 }
 .intro-pic-me{
     width: 100%;
-    transform: translate(0%, -5%)
+    transform: translate(-10%, 10%)
+    scale(2)
 }
 
 
