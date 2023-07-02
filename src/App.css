@@ -9,7 +9,7 @@
     box-sizing: border-box; 
 }
 h1, h2, h3, h4,h5, h6, span{
-    color: "whatever color";
+    color: #22181C;
     text-align: center;
     line-height:1.25;
 } 
@@ -26,6 +26,10 @@ a{
     position: relative;
 }
 /*reusable css*/
+.div-flex-c{
+    display: flex;
+    flex-direction: column;  
+}
 .row{
   width:100%;
   max-width:1200px;
@@ -70,7 +74,7 @@ display: flex;
 .nav-link-a{
   
     margin: 0px 12px;
-    color:#22181C;
+    color:#5A0001;
     font-weight: 700;
 
 }
@@ -90,7 +94,15 @@ display: flex;
     color:#F45B69;
     margin: 0px 12px;
 }
+/* INTRO */ 
 
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 /*Small phones, tablets, large smartphone */ 
