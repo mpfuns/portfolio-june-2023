@@ -10,7 +10,17 @@ import data from './data';
 function App() {
  const projectGroup= data.map(item => {  
   return (
-  <Projects />
+  <Projects   
+  image={item.picImg}
+  title={item.projectName}
+  skills={item.program}
+  para={item.para}
+  github={item.githubLink}
+  link={item.onlineLink}
+
+
+  
+  />
     )}
 )
  
@@ -20,7 +30,18 @@ function App() {
       <Nav/>
       <Intro me={me}  websiteImage={websiteImage}/>
       <Skills />
+      <section id='Projects'>
+        <div className='container'>
+        
+          <div className='med-row'>
+          <div>
+            <h1>Here are some of my <span className='special-color'>projects</span></h1>
+            </div>
+            
       {projectGroup}
+      </div>
+      </div>
+      </section>
       </div>
   );
 }
