@@ -33,12 +33,14 @@ function App() {
       <section id='Projects'>
         <div className='container'>
         
-          <div className='med-row'>
+          <div className='big-row'>
           <div>
             <h1>Here are some of my <span className='special-color'>projects</span></h1>
             </div>
-            
-      {projectGroup}
+       <div className="project--group">
+       {projectGroup}
+        </div>     
+      
       </div>
       </div>
       </section>
