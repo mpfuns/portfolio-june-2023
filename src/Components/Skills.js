@@ -1,6 +1,6 @@
 function Skills (){
     return(
-    <div className="container skill-background">
+    <div id="lauguages" className="container skill-background">
       <div className="med-row ">
         <div >
         <h1>This is my <span className="special-color">coding stack</span></h1>
