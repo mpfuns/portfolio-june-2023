@@ -7,6 +7,7 @@ import './App.css';
 import me from './Components/img/thebestone.jpg';
 import websiteImage from './Components/img/progressive.png';
 import logoImage from './Components/img/logo-pink.png'
+import Resume from './Components/img/MonetPaul2023.pdf'
 import data from './data';
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <Intro me={me}  websiteImage={websiteImage}/>
+      <Intro me={me}  websiteImage={websiteImage} Resume={Resume}/>
       <Skills />
       <section id='Projects'>
         <div className='container'>
@@ -46,7 +47,7 @@ function App() {
       </div>
       </div>
       </section>
-      <Footer logoImage={logoImage} />
+        <Footer logoImage={logoImage}  Resume={Resume}/>
       </div>
   );
 }

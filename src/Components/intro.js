@@ -13,8 +13,8 @@ function Intro (props){
      <div className="intro-container-links">
      <a href="https://www.linkedin.com/in/monetpaul/" target="_blank" ><i className="fa-brands fa-linkedin symbol"></i></a>
      <a href="https://github.com/mpfuns" target="_blank"><i className="fa-brands fa-github symbol"></i></a>
-     <a href="" ><i className="fa-solid fa-envelope symbol"></i></a>
-     <a href="" ><i className="fa-solid fa-file-lines symbol"></i></a>
+     <a href="mailto:monetpaul23@gmail.com"  target="_blank"><i className="fa-solid fa-envelope symbol"></i></a>
+     <a href={props.Resume}  target="_blank"><i className="fa-solid fa-file-lines symbol"></i></a>
      </div> 
 </div>
 <div className="intro-container small-row"><figure><img src={props.websiteImage} alt="latop and phone with website" className="intro-pic-web"/></figure></div>
