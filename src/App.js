@@ -2,9 +2,11 @@ import Nav from './Components/Nav';
 import Intro from './Components/intro';
 import Skills from './Components/Skills';
 import Projects from './Components/projects';
+import Footer from './Components/Footer';
 import './App.css';
 import me from './Components/img/thebestone.jpg';
 import websiteImage from './Components/img/progressive.png';
+import logoImage from './Components/img/logo-pink.png'
 import data from './data';
 
 function App() {
@@ -44,6 +46,7 @@ function App() {
       </div>
       </div>
       </section>
+      <Footer logoImage={logoImage} />
       </div>
   );
 }

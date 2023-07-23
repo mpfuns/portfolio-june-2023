@@ -272,6 +272,18 @@ transition:  transform 450ms, opacity 300ms;
     text-align: left;
     color: white;
 }
+/*Footer */
+footer{
+    background-color: #F6E8EA;
+}
+.footer__row{
+   padding: 8% 0; 
+}
+.footer__logo--img{
+  width: 140px;
+    
+}
+
 
 
 /*Small phones, tablets, large smartphone */ 
