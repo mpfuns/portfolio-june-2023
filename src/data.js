@@ -1,5 +1,13 @@
 export default[
     {
+        projectName:"Cake Delights",
+        picImg:"Cake-Delightsweb.png", 
+        onlineLink:"https://bright-rugelach-e83b78.netlify.app/",
+        githubLink:"https://github.com/mpfuns/cake-delights", 
+        para:"I wanted to practice and improve my CSS skills. I made a fake E-commerce cake shop called Cake Delights. Also, to improve putting images in React. With this project, I have a better understanding of CSS on a deeper level.",  
+        program:"HTML, CSS, Javascript, React"  
+            },
+    {
     projectName:"Rich Dad Poor Dad",
     picImg:"projects/richdadpoordad.png", 
     onlineLink:"https://chic-liger-cb54db.netlify.app/",
