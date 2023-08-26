@@ -7,17 +7,17 @@ function Intro (props){
    <div className="div-flex">
     <div  className="med-row" >
 <div className="intro-container small-row">
-    <figure className="intro-pic-mask"><img src={props.me} className="intro-pic-me" /></figure>
+    <figure className="intro-pic-mask"><img src='thebestone.jpg' className="intro-pic-me" /></figure>
      <h1 className="intro__title">Hello there! I'm <span className="heart-beat">💕</span>&nbsp;<span className="special-color">Monet Paul</span>&nbsp;<span className="heart-beat">💕</span></h1>
      <p className="intro__para">I’m excited to tell you a bit about myself. I’ve always been interested in technology and how it can improve people’s lives and why I pursued a career in <strong className="special-color">frontend software engineering</strong>.</p>  
      <div className="intro-container-links">
      <a href="https://www.linkedin.com/in/monetpaul/" target="_blank" ><i className="fa-brands fa-linkedin symbol"></i></a>
      <a href="https://github.com/mpfuns" target="_blank"><i className="fa-brands fa-github symbol"></i></a>
      <a href="mailto:monetpaul23@gmail.com"  target="_blank"><i className="fa-solid fa-envelope symbol"></i></a>
-     <a href={props.Resume}  target="_blank"><i className="fa-solid fa-file-lines symbol"></i></a>
+     <a href='MonetPaul2023.pdf'  target="_blank"><i className="fa-solid fa-file-lines symbol"></i></a>
      </div> 
 </div>
-<div className="intro-container small-row"><figure><img src={props.websiteImage} alt="latop and phone with website" className="intro-pic-web"/></figure></div>
+<div className="intro-container small-row"><figure><img src='progressive.png' alt="latop and phone with website" className="intro-pic-web"/></figure></div>
 
     </div>
    </div> 

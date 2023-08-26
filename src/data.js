@@ -1,7 +1,7 @@
 export default[
     {
     projectName:"Rich Dad Poor Dad",
-    picImg:"https://monet935005.invisionapp.com/assets/A_MGFjZjlkZDY2YjhlM2JmOZgVzMCKbWXLFQqPYe8NaF3i7-a7EZSFNDP7GohmMqwoW_memWpal7wLP19MfjHmPudKpMOwGxyBGCWQX9ts_jCjWtAhJrd9OO71VOtyvNQx", 
+    picImg:"projects/richdadpoordad.png", 
     onlineLink:"https://chic-liger-cb54db.netlify.app/",
     githubLink:"https://github.com/mpfuns/richdadpoordad-gamesheet", 
     para:"The Cashflow board game from Robert Kiyosaki, author of Rich Dad Poor Dad, inspired the project. I created a web-based spreadsheet to help players to track their income and expenses better than the game paper sheet for board game.",  
@@ -9,7 +9,7 @@ export default[
         },
     {
     projectName:"Lucid Dream Timer", 
-    picImg:"https://monet935005.invisionapp.com/assets/A_MGFjZjlkZDY2YjhlM2JmOUavg9AyUxo-fPVXkj5UkJvSxQ_6vC7Zd7t-lcmkRxmhdlFNLBWsa0MAkRs05gLFpCFZ7Y7u4_VpMxHwuiSnYvxdvEw5imn99WGALsdNfjYc?width=1353&fit=bounds",
+    picImg:"projects/Luciddream.png",
     onlineLink:"https://poetic-gumption-fad8b0.netlify.app/",
     githubLink:"https://github.com/mpfuns/Lucid-dream-timer", 
     para:"I tried many methods to have at least one lucid dream during my spiritual journey, but none of them worked. I watch YouTube video for lucid dreaming and the guy said he had a website with this cool timer for lucid dreaming. However; I did not find the page. This lead to me deciding to make my own Lucid dream timer.",
@@ -17,7 +17,7 @@ export default[
             }, 
     {
     projectName:"Eth Sketch",
-    picImg:"https://monet935005.invisionapp.com/assets/A_MGFjZjlkZDY2YjhlM2JmOcJn92GfVX3IgUG-Mjh4-9MQlfxGa6QxPrDUnIvOdWfDaBiZ4QxDmBlPJJJ6yKv1ihdt5UZMl_sdh9DX-sHkbZrKLxdAKtVfV-cVMNxeOWqz", 
+    picImg:"projects/eth-sketch.png", 
     onlineLink:"https://mpfuns.github.io/eth-a-sketch/",
     githubLink:"https://github.com/mpfuns/eth-a-sketch", 
     para:"For the eth-a-sketch project, it was one of the ultimate challenges when I was learning JavaScript from The Odin Project. I grew my searching skills from this project.",
@@ -25,7 +25,7 @@ export default[
                 }, 
     {
     projectName:"Calculator",
-    picImg:"https://monet935005.invisionapp.com/assets/A_MGFjZjlkZDY2YjhlM2JmOYtRVRup4toex7olnTwbNQnp24iRGXj9R-RkdVnaUgBbTR66Y4cubTD1X12yrMz8nO6luDMdZ7dRkT44rs0j15LOO9W0awRjdtXiB5XUjlE7", 
+    picImg:"projects/calculator .png", 
     onlineLink:"https://beautiful-elf-180756.netlify.app/",
     githubLink:"https://github.com/mpfuns/calculator", 
     para:"For Calculator, it was the last challenge when I was learning JavaScript from The Odin Project.",
