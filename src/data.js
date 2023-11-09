@@ -1,7 +1,15 @@
 export default[
     {
+        projectName:"Meow Hosting",
+        picImg:"projects/meowhostingweb.png", 
+        onlineLink:"https://glowing-cucurucho-41f5b4.netlify.app/",
+        githubLink:"https://github.com/mpfuns/meow-hosting", 
+        para:"I wanted to practice my CSS skills. I made a fake E-commerce for hosting called Meow Hosting. Also, learn Intersection Observer and refs.",  
+        program:"HTML, CSS, Javascript, React"  
+            },
+    {
         projectName:"Cake Delights",
-        picImg:"Cake-Delightsweb.png", 
+        picImg:"projects/Cake-Delightsweb.png", 
         onlineLink:"https://bright-rugelach-e83b78.netlify.app/",
         githubLink:"https://github.com/mpfuns/cake-delights", 
         para:"I wanted to practice and improve my CSS skills. I made a fake E-commerce cake shop called Cake Delights. Also, to improve putting images in React. With this project, I have a better understanding of CSS on a deeper level.",  
